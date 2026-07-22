@@ -1,4 +1,4 @@
-#include <iostream>
+#include <stdio.h>
 float salario, reajuste, novosalario;
 		
 		printf("Insira o valor do salario \n");
