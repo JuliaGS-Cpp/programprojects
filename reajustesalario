@@ -1,0 +1,55 @@
+#include <iostream>
+float salario, reajuste, novosalario;
+		
+		printf("Insira o valor do salario \n");
+		scanf("%f", &salario);
+		
+		if(salario>=0 && salario<=400){
+			reajuste=salario * 0.15;
+			novosalario=salario+reajuste;
+			
+			printf("A porcentagem de reajuste e de 15*/. \n");
+			printf("O valor de reajuste e %.2f \n", reajuste);
+			printf("O novo salario e %.2f \n", novosalario);
+			
+		}
+		else if(salario>400 && salario<=800){
+			
+			reajuste=salario * 0.12;
+			novosalario=salario+reajuste;
+			
+			printf("A porcentagem de reajuste e de 12*/. \n");
+			printf("O valor de reajuste e %.2f \n", reajuste);
+			printf("O novo salario e %.2f \n", novosalario);
+			
+		}
+		else if(salario>800 && salario<=1200){
+			
+			reajuste=salario * 0.10;
+			novosalario=salario+reajuste;
+			
+			printf("A porcentagem de reajuste e de 10*/. \n");
+			printf("O valor de reajuste e %.2f \n", reajuste);
+			printf("O novo salario e %.2f \n", novosalario);
+			
+		}
+		else if(salario>1200 && salario<=2000){
+			
+			reajuste=salario * 0.7;
+			novosalario=salario+reajuste;
+			
+			printf("A porcentagem de reajuste e de 7*/. \n");
+			printf("O valor de reajuste e %.2f \n", reajuste);
+			printf("O novo salario e %.2f \n", novosalario);
+			
+		}
+		else if(salario>2000){
+			
+			reajuste=salario * 0.4;
+			novosalario=salario+reajuste;
+			
+			printf("A porcentagem de reajuste e de 4*/. \n");
+			printf("O valor de reajuste e %.2f \n", reajuste);
+			printf("O novo salario e %.2f \n", novosalario);
+			
+		}
